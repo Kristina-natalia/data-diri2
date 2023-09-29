@@ -14,13 +14,58 @@
         .bg-custom {
             background: linear-gradient(90deg, #4A1D96 0%, #FFD700 100%);
         }
+
+        /* Gaya font untuk judul */
+        .font-title {
+            font-family: 'Sans-serif';
+        }
+
+        /* Gaya font untuk sub bab */
+        .font-subtitle {
+            font-family: 'Great Vibes';
+        }
+
+        /* Gaya font untuk isi */
+        .font-content {
+            font-family: 'Open Sans';
+        }
+
+        /* Tampilan menu Tentang Saya */
+        #about {
+            background-color: #F7F7F7;
+        }
+
+        /* Tampilan menu Minat */
+        #interests {
+            background-color: #EDE9FE;
+        }
+
+        /* Tampilan menu Hobi */
+        #hobbies {
+            background-color: #FFE3A3;
+        }
+
+        /* Tampilan menu Pendidikan */
+        #education {
+            background-color: #E0FEFF;
+        }
+
+        /* Tampilan menu Studi di UNDIKSHA */
+        #study {
+            background-color: #C7E4E9;
+        }
+
+        /* Tampilan menu Hubungi Saya */
+        #contact {
+            background-color: #FDE68A;
+        }
     </style>
 </head>
 
 <body class="font-sans">
     <header class="bg-custom py-10">
         <div class="w-9/12 mx-auto text-center">
-            <h1 class="text-4xl text-white">Kristina Natalia</h1>
+            <h1 class="text-4xl text-white font-title">Kristina Natalia</h1>
             <p class="text-white text-lg">Mahasiswa Ilmu Komputer di UNDIKSHA</p>
             <p class="text-white text-lg">Kelahiran Bandung, 11 Desember 2003</p>
         </div>
@@ -39,44 +84,34 @@
         <section id="about" class="py-20">
             <div class="w-9/12 mx-auto">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl text-slate-900">Tentang Saya</h2>
+                    <h2 class="text-3xl text-slate-900 font-subtitle">Tentang Saya</h2>
                 </div>
-                <p class="text-lg text-gray-700 leading-relaxed">
-                    Halo, nama saya adalah Kristina Natalia, lahir di Bandung pada tanggal 11 Desember 2003. Saya adalah mahasiswa di Universitas Pendidikan Ganesha (UNDIKSHA), sedang mengejar gelar dalam bidang Ilmu Komputer. Saya memiliki berbagai minat dan hobi yang meliputi desain, style, kewirausahaan, menari, membaca buku, traveling, menjadi seorang foodie, dan menonton film.
+                <p class="text-lg text-gray-700 leading-relaxed font-content">
+                    Halo, nama saya adalah Kristina Natalia, dan saya lahir di Bandung pada tanggal 11 Desember 2003. Saya saat ini adalah seorang mahasiswa di Universitas Pendidikan Ganesha (UNDIKSHA), di mana saya sedang mengejar gelar dalam bidang Ilmu Komputer. Di sini, saya akan membagikan lebih banyak informasi tentang minat, hobi, dan tujuan saya dalam kehidupan serta di dunia akademik.
                 </p>
             </div>
         </section>
         <section id="interests" class="bg-gray-50 py-20">
             <div class="w-9/12 mx-auto">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl text-slate-900">Minat dan Bakat Saya</h2>
+                    <h2 class="text-3xl text-slate-900 font-subtitle">Minat dan Bakat Saya</h2>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-10">
                     <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
                         <img class="w-16 h-16 mx-auto mb-4 rounded-full" src="img/Design.svg" alt="Desain">
-                        <h3 class="text-xl font-semibold text-slate-900 text-center">Desain</h3>
-                        <p class="text-gray-700 mt-2 text-center">Saya memiliki hasrat dalam desain grafis dan visual.</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
-                        <img class="w-16 h-16 mx-auto mb-4 rounded-full" src="img/Fashion.svg" alt="Style">
-                        <h3 class="text-xl font-semibold text-slate-900 text-center">Style</h3>
-                        <p class="text-gray-700 mt-2 text-center">Saya senang mengeksplorasi tren mode dan gaya pribadi.</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
-                        <img class="w-16 h-16 mx-auto mb-4 rounded-full" src="img/Entrepreneurship.svg" alt="Kewirausahaan">
-                        <h3 class="text-xl font-semibold text-slate-900 text-center">Kewirausahaan</h3>
-                        <p class="text-gray-700 mt-2 text-center">Saya memiliki minat dalam dunia kewirausahaan dan bisnis.</p>
+                        <h3 class="text-xl font-semibold text-slate-900 text-center font-subtitle">Desain</h3>
+                        <p class="text-gray-700 mt-2 text-center font-content">Saya memiliki hasrat dalam desain grafis dan visual.</p>
                     </div>
                     <!-- Tambahkan minat dan bakat lainnya sesuai keinginan Anda di sini -->
                 </div>
             </div>
         </section>
-        <section id="hobbies" class="py-20">
+        <section id="hobbies" class="bg-yellow-100 py-20">
             <div class="w-9/12 mx-auto">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl text-white">Hobi Saya</h2>
+                    <h2 class="text-3xl text-slate-900 font-subtitle">Hobi Saya</h2>
                 </div>
-                <ul class="list-disc list-inside mt-10 text-gray-700">
+                <ul class="list-disc list-inside mt-10 text-gray-700 font-content">
                     <li>Desain</li>
                     <li>Style</li>
                     <li>Kewirausahaan</li>
@@ -88,12 +123,12 @@
                 </ul>
             </div>
         </section>
-        <section id="education" class="bg-gray-50 py-20">
+        <section id="education" class="bg-blue-100 py-20">
             <div class="w-9/12 mx-auto">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl text-slate-900">Pendidikan</h2>
+                    <h2 class="text-3xl text-slate-900 font-subtitle">Pendidikan</h2>
                 </div>
-                <ul class="list-disc list-inside mt-10 text-gray-700">
+                <ul class="list-disc list-inside mt-10 text-gray-700 font-content">
                     <li>Tk Kartika 19 Bandung (2009-2010)</li>
                     <li>SDN 0408232 Kabanjahe (2010-2016)</li>
                     <li>SMPN 3 Berastagi (2016-2018)</li>
@@ -102,34 +137,36 @@
                 </ul>
             </div>
         </section>
-        <section id="study" class="py-20">
+        <section id="study" class="bg-green-100 py-20">
             <div class="w-9/12 mx-auto">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl text-slate-900">Studi di UNDIKSHA</h2>
+                    <h2 class="text-3xl text-slate-900 font-subtitle">Studi di UNDIKSHA</h2>
                 </div>
-                <p class="text-lg text-gray-700 leading-relaxed">
+                <p class="text-lg text-gray-700 leading-relaxed font-content">
                     Sebagai mahasiswa Ilmu Komputer di UNDIKSHA, saya sangat bersemangat untuk mengembangkan keterampilan teknis dan pengetahuan dalam bidang ini. Saya tertarik untuk menjelajahi berbagai aspek komputasi, seperti pemrograman, kecerdasan buatan, analisis data, dan keamanan komputer.
-
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed font-content">
                     Saya juga aktif dalam kegiatan akademik di kampus, seperti mengikuti seminar, berpartisipasi dalam proyek-proyek penelitian, dan menjadi anggota komunitas ilmu komputer. Tujuan saya adalah untuk mencapai potensi maksimal saya dalam studi dan berkontribusi pada perkembangan teknologi informasi di masa depan.
-
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed font-content">
                     Selain itu, saya juga berharap dapat menggabungkan minat dan hobi saya, seperti desain dan kewirausahaan, dengan ilmu komputer untuk menciptakan peluang baru dan inovasi dalam industri ini.
                 </p>
             </div>
         </section>
-        <section id="contact" class="bg-gray-50 py-20">
+        <section id="contact" class="bg-yellow-200 py-20">
             <div class="w-9/12 mx-auto">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl text-slate-900">Hubungi Saya</h2>
+                    <h2 class="text-3xl text-slate-900 font-subtitle">Hubungi Saya</h2>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10">
                     <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <h3 class="text-xl font-semibold text-slate-900">Instagram</h3>
+                        <h3 class="text-xl font-semibold text-slate-900 font-subtitle">Instagram</h3>
                         <a href="https://instagram.com/kriss.laughs?igshid=MmU2YjMzNjRlOQ=="
                             class="text-blue-600 hover:underline mt-2" target="_blank"
                             rel="noopener noreferrer">kriss.laughs</a>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <h3 class="text-xl font-semibold text-slate-900">Email</h3>
+                        <h3 class="text-xl font-semibold text-slate-900 font-subtitle">Email</h3>
                         <a href="mailto:tinabgn123@gmail.com" class="text-blue-600 hover:underline mt-2">tinabgn123@gmail.com</a>
                     </div>
                 </div>
