@@ -5,14 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <title>Kristina Natalia</title>
     <style>
         body {
-            background: linear-gradient(90deg, #A0AEC0 0%, #FFD700 100%);
+            background: linear-gradient(135deg, #4A1D96 0%, #F6F5FF 50%, #AC94FA 100%);
         }
 
         .bg-custom {
-            background: linear-gradient(90deg, #A0AEC0 0%, #FFD700 100%);
+            background: linear-gradient(135deg, #4A1D96 0%, #F6F5FF 50%, #AC94FA 100%);
+        }
+
+        .section-title {
+            color: #4A1D96;
+        }
+
+        .text-slate-900 {
+            color: #4A1D96;
+        }
+
+        .text-highlight {
+            color: #AC94FA;
         }
     </style>
 </head>
@@ -30,7 +41,7 @@
             <a href="#about" class="text-gray-600 hover:text-gray-800 transition duration-300">Tentang Saya</a>
             <a href="#interests" class="text-gray-600 hover:text-gray-800 transition duration-300">Minat</a>
             <a href="#hobbies" class="text-gray-600 hover:text-gray-800 transition duration-300">Hobi</a>
-            <a href="#study" class="text-gray-600 hover:text-gray-800 transition duration-300">Studi di UNDIKSHA</a>
+            <a href="#study" class="text-gray-600 hover:text-gray-800 transition duration-300">Pendidikan</a>
             <a href="#contact" class="text-gray-600 hover:text-gray-800 transition duration-300">Hubungi Saya</a>
         </div>
     </nav>
@@ -48,32 +59,31 @@
         <section id="interests" class="bg-gray-50 py-20">
             <div class="w-9/12 mx-auto">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl text-slate-900">Minat dan Bakat Saya</h2>
+                    <h2 class="text-3xl section-title">Minat dan Bakat Saya</h2>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-10">
-                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="interest-card p-6 rounded-lg hover:shadow-xl">
                         <img class="w-16 h-16 mx-auto mb-4 rounded-full" src="img/Design.svg" alt="Desain">
                         <h3 class="text-xl font-semibold text-slate-900 text-center">Desain</h3>
                         <p class="text-gray-700 mt-2 text-center">Saya memiliki hasrat dalam desain grafis dan visual.</p>
                     </div>
-                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="interest-card p-6 rounded-lg hover:shadow-xl">
                         <img class="w-16 h-16 mx-auto mb-4 rounded-full" src="img/Fashion.svg" alt="Style">
                         <h3 class="text-xl font-semibold text-slate-900 text-center">Style</h3>
                         <p class="text-gray-700 mt-2 text-center">Saya senang mengeksplorasi tren mode dan gaya pribadi.</p>
                     </div>
-                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="interest-card p-6 rounded-lg hover:shadow-xl">
                         <img class="w-16 h-16 mx-auto mb-4 rounded-full" src="img/Entrepreneurship.svg" alt="Kewirausahaan">
                         <h3 class="text-xl font-semibold text-slate-900 text-center">Kewirausahaan</h3>
                         <p class="text-gray-700 mt-2 text-center">Saya memiliki minat dalam dunia kewirausahaan dan bisnis.</p>
                     </div>
-                    <!-- Tambahkan minat dan bakat lainnya sesuai keinginan Anda di sini -->
                 </div>
             </div>
         </section>
         <section id="hobbies" class="py-20">
             <div class="w-9/12 mx-auto">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl text-white">Hobi Saya</h2>
+                    <h2 class="text-3xl text-white section-title">Hobi Saya</h2>
                 </div>
                 <ul class="list-disc list-inside mt-10 text-gray-700">
                     <li>Desain</li>
@@ -90,11 +100,15 @@
         <section id="study" class="bg-gray-50 py-20">
             <div class="w-9/12 mx-auto">
                 <div class="text-center mb-10">
-                    <h2 class="text-3xl text-slate-900">Studi di UNDIKSHA</h2>
+                    <h2 class="text-3xl section-title">Pendidikan Saya</h2>
                 </div>
-                <p class="text-lg text-gray-700 leading-relaxed">
-                    Sebagai mahasiswa Ilmu Komputer di UNDIKSHA, saya sangat bersemangat untuk mengembangkan keterampilan teknis dan pengetahuan dalam bidang ini. Saya tertarik untuk menjelajahi berbagai aspek komputasi, seperti pemrograman, kecerdasan buatan, analisis data, dan keamanan komputer.
-                </p>
+                <ul class="list-disc list-inside mt-10 text-gray-700">
+                    <li>Tk Kartika 19 Bandung (2009-2010)</li>
+                    <li>SDN 0408232 Kabanjahe (2010-2016)</li>
+                    <li>SMPN 3 Berastagi (2016-2018)</li>
+                    <li>SMA Swasta Santa Maria Kabanjahe (2019-2021)</li>
+                    <li>Universitas Pendidikan Ganesha (2022-sekarang)</li>
+                </ul>
             </div>
         </section>
         <section id="contact" class="bg-gray-50 py-20">
@@ -106,12 +120,12 @@
                     <div class="bg-white p-6 rounded-lg shadow-lg">
                         <h3 class="text-xl font-semibold text-slate-900">Instagram</h3>
                         <a href="https://instagram.com/kriss.laughs?igshid=MmU2YjMzNjRlOQ=="
-                            class="text-blue-600 hover:underline mt-2" target="_blank"
+                            class="text-highlight hover:underline mt-2" target="_blank"
                             rel="noopener noreferrer">kriss.laughs</a>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow-lg">
                         <h3 class="text-xl font-semibold text-slate-900">Email</h3>
-                        <a href="mailto:tinabgn123@gmail.com" class="text-blue-600 hover:underline mt-2">tinabgn123@gmail.com</a>
+                        <a href="mailto:tinabgn123@gmail.com" class="text-highlight hover:underline mt-2">tinabgn123@gmail.com</a>
                     </div>
                 </div>
             </div>
